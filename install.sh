@@ -3,6 +3,5 @@
 
 python3 -m venv docker_venv;
 source docker_venv/bin/activate;
-pip install -r requirements.txt;
 
 

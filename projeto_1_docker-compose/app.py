@@ -27,4 +27,4 @@ def get_hit_count():
 def hello():
     '''Printa na Interface.'''
     count = get_hit_count()
-    return f"Hello World! I have been seen {count} times."
+    return f"Olá colegas da Vale {count}."
