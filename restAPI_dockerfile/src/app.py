@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route("/", methods=["GET"])
 def ping():
     '''Rota inicial da minha aplicação'''
-    return jsonify({"response": "Olá colegas da UFES-Vale"})
+    return jsonify({"response": "Hello colegas da UFES-Vale"})
 
 @app.route("/users")
 def usershandler():
