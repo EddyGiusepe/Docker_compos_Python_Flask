@@ -26,3 +26,4 @@ def predict():
 if __name__ == "__main__":
     # Run the app on local host and port 8989
     app.run(debug=True, host="0.0.0.0", port=8989)
+    
