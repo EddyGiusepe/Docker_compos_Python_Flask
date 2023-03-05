@@ -1,7 +1,8 @@
+'''
+Com este script testamos nosso servidor (a Endpoint de predição) no Flask
+'''
 import requests
-'''
-Com este script testamos 
-'''
+
 # Exemplo de solicitação de empréstimo
 application = {
     "Term": 84,
